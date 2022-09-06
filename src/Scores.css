@@ -1,3 +1,9 @@
 .scores {
   width: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.scores li:last-child {
+  border: none;
 }

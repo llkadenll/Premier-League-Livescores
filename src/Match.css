@@ -31,8 +31,9 @@
 
 .match-score {
   display: flex;
+  justify-content: center;
+  gap: 2px;
   width: 60px;
-  text-align: center;
   margin: 5px;
 }
 
@@ -44,6 +45,7 @@
 .home-team-name, .away-team-name {
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .score-dash {

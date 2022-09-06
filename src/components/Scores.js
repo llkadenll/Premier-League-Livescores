@@ -12,8 +12,8 @@ export default function Scores(props) {
   })
 
   return (
-    <div className="scores">
+    <ul className="scores">
       {scores}
-    </div>
+    </ul>
   )
 }
