@@ -1,0 +1,51 @@
+.match {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  height: 50px;
+  border-bottom: 1px solid white;
+}
+
+.match-info {
+  display: flex;
+  align-items: center;
+}
+
+.home-team, .away-team {
+  width: calc(50% - 40px);
+  display: flex;
+  align-items: center;
+}
+
+.home-team {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.club-crest {
+  width: 30px;
+  margin: 8px;
+}
+
+.match-score {
+  display: flex;
+  width: 60px;
+  text-align: center;
+  margin: 5px;
+}
+
+.home-score, .away-score {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.home-team-name, .away-team-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.score-dash {
+  font-size: xx-large;
+}

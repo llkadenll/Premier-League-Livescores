@@ -1,0 +1,15 @@
+body {
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+#root {
+  width: 70%;
+}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import './App.css'
 import Scores from "./components/Scores"
 import scoresData from "./data.js"
 
@@ -24,7 +25,9 @@ function App() {
   // }
 
   return (
-    <Scores scores={scores} />
+    <div className="app">
+      <Scores scores={scores} />
+    </div>
   )
 }
 
