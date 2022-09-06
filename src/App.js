@@ -26,8 +26,11 @@ function App() {
 
   return (
     <div className="app">
-      <Scores scores={scores} />
-    </div>
+      {scores.length
+        ? <Scores scores={scores} />
+        : "No live games at the moment."
+      }
+      </div>
   )
 }
 
