@@ -1,4 +1,4 @@
-import '../Scores.css'
+import './Scores.css'
 import Match from "./Match"
 
 export default function Scores(props) {

@@ -1,4 +1,4 @@
-import '../Match.css'
+import './Match.css'
 
 export default function Match(props) {
 
